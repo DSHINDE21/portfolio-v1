@@ -16,9 +16,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencil } from '@fortawesome/free-solid-svg-icons';
 import * as icons from './Icons';
 // import cp from '../static/images/cp.png';
-import dsa from '../static/images/dsa.png';
+import dsa from '../static/images/dsa1.png';
 // import datascience from '../static/images/datascience.png';
-import webdev from '../static/images/webdev.png';
+import webdev from '../static/images/fullstack.png';
 
 const skills = [
   {

@@ -2,64 +2,69 @@
 
 This repository contains my personal portfolio website.
 
-## Sections 
+## Sections
 
 ⭐ About Me \
 ⭐ Skills \
 ⭐ Education \
 ⭐ Experience \
 ⭐ Projects \
-⭐ Certifications \
-⭐ Social Media 
+⭐ Social Media
 
-## Getting Started 
+## Getting Started
 
 ### Installation
 
 ➡️ Install compatible versions of `node.js` and `npm`
 
 ➡️ Clone the repository to your local system
+
 ```bash
-git clone https://github.com/arunimabarik75/Portfolio-Website.git
+git clone https://github.com/DSHINDE21/portfolio-v1
 ```
-  
+
 ➡️ Navigate to the directory
+
 ```bash
 cd Portfolio-Website
 ```
 
 ➡️ Install all required dependencies
+
 ```bash
 npm install
 ```
 
 ➡️ Start the development server
+
 ```bash
 npm start
 ```
 
 ➡️ The server will start at `http://localhost:3000` by default
 
-
 ### Tech Stack
 
 💻 React.js \
-💻 Chakra UI 
+💻 Chakra UI
 
 ### Icons
 
 Several sections of the website contain icons. These icons have been taken from a variety of sources -
 
 ✅ [Iconify](https://icon-sets.iconify.design/)
-1. Copy React SVG code from here and paste it in a `.js` file 
+
+1. Copy React SVG code from here and paste it in a `.js` file
 2. `./src/components/Icons.js` contains SVG code for different icons
 
 ✅ [FontAwesome](https://fontawesome.com/icons)
-1. [Set Up FontAwesome with React](https://docs.fontawesome.com/web/use-with/react) 
-2. Select icons from a huge variety of free and paid icons available 
+
+1. [Set Up FontAwesome with React](https://docs.fontawesome.com/web/use-with/react)
+2. Select icons from a huge variety of free and paid icons available
 3. Choose React (Individual Import) to add the icons to the website
 
 ✅ [Icons8](https://icons8.com/icons)
+
 1. Select icons from the available types and styles
 2. Download ➡️ SVG Embed ➡️ Inline ➡️ Copy HTML Code
 
@@ -73,12 +78,10 @@ Several sections of the website contain icons. These icons have been taken from 
 
 1. [Fontsource](https://fontsource.org/) fonts have been used in this project
 2. The following fonts have been used - \
-    🔸 [Paytone One](https://fontsource.org/fonts/paytone-one) \
-    🔸 [Satisfy](https://fontsource.org/fonts/satisfy) \
-    🔸 [Work Sans](
-    https://fontsource.org/fonts/work-sans) \
-    🔸 [Dancing Script](
-    https://fontsource.org/fonts/dancing-script)
+   🔸 [Paytone One](https://fontsource.org/fonts/paytone-one) \
+   🔸 [Satisfy](https://fontsource.org/fonts/satisfy) \
+   🔸 [Work Sans](https://fontsource.org/fonts/work-sans) \
+   🔸 [Dancing Script](https://fontsource.org/fonts/dancing-script)
 3. Install the fonts and include them in `./src/theme.js` file
 
 ### Favicon
@@ -104,13 +107,14 @@ I have generated the cartoon version of my image using [PhotoCartoon](https://ph
 
 ### Theme
 
-The current theme of the website uses the following colors - 
+The current theme of the website uses the following colors -
+
 1. Light Blue ( `blue.50` or `#EBF8FF` )
 2. Medium Blue ( `blue.400` or `#4299E1` )
 3. Dark Blue ( `blue.900` or `#1A365D` )
 4. White ( `white` or `#FFFFFF` )
 
-## Deployment 
+## Deployment
 
 1. This website has been deployed on [Vercel](https://vercel.com/docs/deployments/overview)
 2. Various other alternatives exist like [GitHub Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/)
@@ -119,12 +123,11 @@ The current theme of the website uses the following colors -
 ```bash
 npm run build
 ```
+
 This creates a `build` directory with all the code. Deploy only this folder.
 
-This website has been deployed [here](https://arunima-barik-portfolio.vercel.app/)
+This website has been deployed [here]()
 
-## References 
+## References
 
-[Ashutosh Hathidara's Portfolio Website](https://ashutoshhathidara.com/) 
-
-
+[Ashutosh Hathidara's Portfolio Website](https://ashutoshhathidara.com/)
