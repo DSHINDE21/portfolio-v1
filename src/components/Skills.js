@@ -44,7 +44,7 @@ const skills = [
     description: [
       'Skilled in frontend technologies like HTML, CSS, JavaScript, TypeScript and React.js',
       'Able to write REST APIs for backend using Node.js and Express.js',
-      'Good understanding of state management using Redux and Context API',
+      'Good understanding of state management using Redux, Zustand and Context API',
       'Knowledgeable about databases such as MySQL and MongoDB',
       'Experienced in working with version control systems like Git and Bitbucket',
       'Familiar with deployment on platforms such as AWS and Jenkins',

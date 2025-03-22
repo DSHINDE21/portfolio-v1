@@ -53,7 +53,7 @@ const degrees = [
     score: 'First Class',
     description: [
       'Subjects - English, Hindi, Mathematics, Science, Social Science',
-      'Secured First Class in CBSE Class 10 Board Exams',
+      'Secured First Class in SSC Class 10 Board Exams',
     ],
     website:
       'https://schools.org.in/mumbai-ii/27230300206/nutan-vidya-mandir-mankhurd.html',
