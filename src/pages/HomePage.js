@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 import profile from '../static/images/dinesh_round.png';
+import TextToSpeech from '../components/TextToSpeech';
 
 const About = () => {
   return (
@@ -24,16 +25,14 @@ const About = () => {
       >
         ( DSHINDE21 )
       </Text>
-      <Text
-        mb={[5, 5, 8]}
-        align="center"
+      <TextToSpeech
+        text="Enthusiastic software engineer striving every day to master coding and build innovative solutions for real-world challenges"
         fontFamily="workSans"
         fontSize={['xl', 'xl', '2xl', '3xl']}
         color="blue.900"
-      >
-        Enthusiastic software developer striving every day to master coding and
-        build innovative solutions for real-world challenges
-      </Text>
+        mb={[5, 5, 8]}
+        align="center"
+      />
       <SocialMedia />
     </>
   );
